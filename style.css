@@ -1,17 +1,32 @@
 body {
-    background-color: #808080;
+    background-color: black;
 }
 #intro {
     color: white;
     height: 100vh;
+    text-shadow: 2px 2px #8f0000;
 }
 
 #intro h1 {
     font-size: 96px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px red;
+    animation: fadein ease-in 2s;
+}
+#intro h2 {
+    opacity: 0;
+    animation: fadein;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 #intro code {
     font-size: 1.74rem;
+    color: black;
+    opacity: 0;
+    animation: fadein;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 #arrowdown {
     font-size: 60px;
@@ -21,14 +36,15 @@ body {
 }
 #about {
     color: white;
-    background-color: black;
+    background-color: grey;
     padding: 30px;
-    text-shadow: 1px 1px red;
+    text-shadow: 1px 1px black;
 }
 #contact {
     background-color: #8f0000;
     color: white;
     padding: 30px;
+    text-shadow: 2px 2px grey;
 }
 form input,
 form textarea {
@@ -50,8 +66,27 @@ form .btn {
 #contact a {
     color: black;
 }
-#portfolio {
-    background-color: black;
+#projects {
+    background-color: gray;
     padding: 30px;
     color: white;
+    text-shadow: 2px 2px black;
+}
+footer {
+    color: white;
+    padding: 5px;
+}
+section {
+    box-shadow: -10px 0 45px black;
+}
+.card {
+    text-shadow: 1px 1px red;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
