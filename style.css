@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    color: white;
 }
 #intro {
     color: white;
@@ -11,8 +12,9 @@ body {
     font-size: 96px;
     text-shadow: 2px 2px red;
     animation: fadein ease-in 2s;
+    color: white;
 }
-#intro h2 {
+#intro h4 {
     opacity: 0;
     animation: fadein;
     animation-delay: 1s;
@@ -38,7 +40,7 @@ body {
     color: white;
     background-color: grey;
     padding: 30px;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 #contact {
     background-color: #8f0000;
@@ -84,4 +86,86 @@ section {
     to {
         opacity: 1;
     }
+}
+h1 {
+    color: black;
+}
+h2 {
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+#nav {
+    padding: 5px;
+}
+#linksbar span,
+#icons span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#headlinecontent {
+    background-image: url("img/cover.jpg");
+    min-height: 550px;
+    background-size: cover;
+}
+#seriesrow img {
+    height: 25px;
+}
+#seriesrow {
+    margin-top: 150px;
+    color: darkgray;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#showname {
+    font-family: "Cabin", sans-serif;
+    text-transform: uppercase;
+    font-size: 56px;
+    text-shadow: 2px 2px black;
+}
+#trendingrank img {
+    width: 25px;
+    margin-right: 10px;
+}
+#trendingrank {
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+#headlinecontent p {
+    margin-top: 10px;
+    text-shadow: 1px 1px black;
+}
+#play {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-size: 500;
+    padding: 5px 20px 5px 20px;
+}
+#moreInfo {
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    background: rgba(120, 120, 120, 0.8);
+    padding: 5px 20px 5px 20px;
+}
+#ratingCol {
+    margin-top: 400px;
+}
+#rating {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 20px 5px 20px;
+    border-left: 2px solid white;
+}
+#refresh {
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#Recommendedline {
+    margin-top: 15px;
+}
+#Showlineup img {
+    height: 85px;
+    margin-top: 5px;
 }

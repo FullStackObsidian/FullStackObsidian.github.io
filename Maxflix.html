@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin&family=Instrument+Serif&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row" id="nav">
+                <div class="col-1">
+                    <img src="img/logo.png" class="img-fluid" />
+                </div>
+                <!-- end of col-1 -->
+                <div class="col" id="linksbar">
+                    <span>Home</span>
+                    <span>TV Shows</span>
+                    <span>Movies</span>
+                    <span>New & Popular</span>
+                    <span>This isn't Netflix</span>
+                </div>
+                <!-- end of linkbar -->
+                <div class="col-3 text-end" id="icons">
+                    <span class="material-symbols-outlined"> search </span>
+                    <span class="material-symbols-outlined">
+                        notification_add
+                    </span>
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                </div>
+            </div>
+            <!-- end of row 1-->
+            <div class="row" id="headlinecontent">
+                <div class="col-5">
+                    <div id="seriesrow">
+                        <img src="img/netflix-N.png" />
+                        SERIES
+                    </div>
+                    <!-- end of series row -->
+                    <div id="showname">Brigerton</div>
+                    <div id="trendingrank">
+                        <img src="img/netflix-top10-icon.png" />
+                        #2 TV show in the world
+                    </div>
+                    <p>
+                        I have nothing to put for a description. This is it.
+                        Nothing more to read. Seriously..You can stop reading.
+                        Look at the rest of the page tho.
+                    </p>
+                    <div id="playButton">
+                        <button id="play">
+                            <span class="material-symbols-outlined">
+                                play_arrow </span
+                            >Play
+                        </button>
+                        <button id="moreInfo">
+                            <span class="material-symbols-outlined"> info </span
+                            >More Info
+                        </button>
+                    </div>
+                    <!-- end of button row -->
+                </div>
+                <div class="col-5">
+                    <!-- empty col spacer to push buttons -->
+                </div>
+                <div class="col-2 text-end" id="ratingCol">
+                    <span class="material-symbols-outlined" id="refresh">
+                        refresh
+                    </span>
+                    <span id="rating">TV-MA</span>
+                </div>
+                <!-- end of headline area-->
+            </div>
+            <!-- end of headline row -->
+            <div id="Recommendedline">Recommended by Popularity</div>
+            <div class="row" id="Showlineup">
+                <div class="col">
+                    <img src="img/show45.webp" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <img src="img/show39.jpg" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <img src="img/show35.webp" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <img src="img/show15.jpg" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <img src="img/show11.jpg" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <img src="img/show3.jpg" class="img-fluid" />
+                </div>
+            </div>
+            <footer>© 2023 Obsidian Art Inc</footer>
+        </div>
+        <!-- end of container -->
+    </body>
+</html>
