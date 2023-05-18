@@ -1,31 +1,57 @@
 body {
-  background-color: #808080;
+    background-color: #808080;
 }
 #intro {
-  color: white;
-  height: 100vh;
+    color: white;
+    height: 100vh;
 }
 
 #intro h1 {
-  font-size: 96px;
-  text-shadow: 2px 2px black;
+    font-size: 96px;
+    text-shadow: 2px 2px black;
 }
 #intro code {
-  font-size: 1.74rem;
+    font-size: 1.74rem;
 }
 #arrowdown {
-  font-size: 60px;
-  position: absolute;
-  bottom: 30px;
-  left: calc(50% - 30px);
+    font-size: 60px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 30px);
 }
 #about {
-  color: white;
-  background-color: black;
-  padding: 30px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    text-shadow: 1px 1px red;
 }
 #contact {
-  background-color: #8f0000;
-  color: white;
-  padding-bottom: 30px;
+    background-color: #8f0000;
+    color: white;
+    padding: 30px;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+}
+#email {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+form .btn-dark {
+    width: 100%;
+    margin-top: 15px;
+    color: black;
+}
+form .btn {
+    color: white;
+}
+#contact a {
+    color: black;
+}
+#portfolio {
+    background-color: black;
+    padding: 30px;
+    color: white;
 }
