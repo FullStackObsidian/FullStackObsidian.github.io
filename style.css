@@ -44,7 +44,6 @@ body {
     background-color: #8f0000;
     color: white;
     padding: 30px;
-    text-shadow: 2px 2px grey;
 }
 form input,
 form textarea {
@@ -70,7 +69,6 @@ form .btn {
     background-color: gray;
     padding: 30px;
     color: white;
-    text-shadow: 2px 2px black;
 }
 footer {
     color: white;
@@ -78,9 +76,6 @@ footer {
 }
 section {
     box-shadow: -10px 0 45px black;
-}
-.card {
-    text-shadow: 1px 1px red;
 }
 @keyframes fadein {
     from {
